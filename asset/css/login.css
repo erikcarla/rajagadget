@@ -1,0 +1,68 @@
+/* LOGIN PAGE SECTION */
+.form-login {
+    -webkit-box-shadow:2px 2px 5px gray;
+    box-shadow:2px 2px 5px gray; 
+    width: 310px; height: 200px; 
+    overflow: hidden; 
+    position: relative; 
+    margin: 300px auto 0 auto; 
+    font-family: helvetica; 
+    border-radius: 5px ;
+    -moz-border-radius: 5px ;
+	-webkit-box-shadow:  0px 0px 20px 1px rgba(0, 0, 0, 1);
+        
+        box-shadow:  0px 0px 20px 1px rgba(0, 0, 0, 1);
+}
+
+ .login-right {
+    float: left;
+}
+
+
+.login-right { 
+    background-color: #CCC; 
+    width: 310px; 
+    height: 200px;
+    border-top-right-radius:5px;
+    border-bottom-right-radius:5px;
+    -moz-border-radius-topright:5px;
+    -moz-border-radius-bottomright:5px;
+}
+
+.login-right label {
+    width: 100px; 
+    float: left; 
+    display: block; 
+    font-size: 13px; 
+    font-weight: bold; 
+    color: #000040;
+}
+
+.login-right h3 {
+    color: #000;
+	font-size:25px;
+	text-align:center;
+}
+
+.login-right input[type='text'] , 
+.login-right input[type='password'] {
+    border: solid 1px green; 
+    border-radius: 5px;
+}
+
+.login-right input[type='submit'] {
+    background-color: green; 
+    color: white; 
+    font-weight: bold; 
+    border: solid 1px #005329; 
+    padding: 5px;
+}
+
+.form-login-wrapper {
+    padding: 10px; 
+}
+
+
+
+.clear {clear: both;}
+/* END OF LOGIN PAGE SECTION */

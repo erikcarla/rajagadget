@@ -1,0 +1,72 @@
+/* WRITE YOUR CSS CODE HERE */
+label {
+    display: block;
+    width: 100px;
+}
+
+fieldset {
+    padding: 20px;
+}
+
+legend {
+    font-weight: bold;
+}
+
+input, select, textarea {
+    margin-bottom: 10px;
+    display: block;
+}
+
+a.active, a.no-active, .no-stock {
+    color: white;
+    padding: 3px;
+    text-align: center;
+    font-size: 11px;
+    display: block;
+    width: 50px;
+    text-decoration: none;
+}
+
+a.active {
+    background-color: #81CF5F;
+}
+
+a.no-active, .no-stock {
+    background-color: #E8464A;
+}
+
+.col-left, .col-right {
+    float: left;
+    width: 200px;
+}
+
+fieldset.produk {
+    width: 400px;
+}
+
+.detil-left, .detil-right {
+    float: left;
+}
+
+.picture-wrap {
+    padding: 10px;
+}
+
+.picture-inner {
+    width: 200px;
+    height:200px;
+    border: solid silver 1px;
+}
+
+.no-image {
+    background-color: #F3F3F3;
+    width: 200px;
+    height: 200px;
+    overflow: hidden;
+    text-align: center;
+}
+
+.no-image span {
+    display: block;
+    margin-top: 90px;
+}
